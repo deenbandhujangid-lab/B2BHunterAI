@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.db
+*.db-shm
+*.db-wal
+backend/_cleanup_dupes.py
+backend/_check_*.py
+backend/_dbg.py
+backend/_test_*.py
+
+# Node
+node_modules/
+.next/
+out/
+
+# Env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright
+playwright-report/
+test-results/
+
+# Logs / local runtime
+*.log
+backend/*.log
+__debug__/
+.cursor/
